@@ -8,7 +8,7 @@ const Products = ({ products, onAddToCart }) => {
     const classes = useStyles();
 
     return (
-        <main className={classes.content}>
+        <main className={classes.content} gutterTop>
             <div className={classes.toolbar} />
             <Grid container justify="center" spacing={4}>
                 {products.map((product) => (
