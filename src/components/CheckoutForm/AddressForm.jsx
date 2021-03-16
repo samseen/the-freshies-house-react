@@ -74,7 +74,6 @@ const AddressForm = ({ checkoutToken, next }) => {
                                         {country.label}
                                     </MenuItem>
                                 ))}
-                                
                             </Select>
                         </Grid>
                         <Grid item xs={12} sm={6}>
